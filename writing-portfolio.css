@@ -1,0 +1,256 @@
+
+
+ .box {
+
+ 	/*width:900px;
+ 	height:900px;*/
+ 	/*border:1px dashed red;*/
+ 	padding-left:200px;
+ 	position:relative;
+ 	top:30px;
+ 	/*background-color: #FCF100*/
+ 	/*background-image:url("20170219-DSC_8790-bw.jpg");
+ 	background-size: 100%;
+ 	background-repeat:no-repeat;*/
+ 	/*background-repeat: repeat-y;
+ 	background-position: left top*/
+ }
+
+ .parallax {
+    /* The image used */
+    background-image: url("20170219-DSC_8809.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ h1 {
+ 	font-size: 72px;
+ 	font-family: 'Radley', cursive;
+ 	margin-bottom:20px;
+ 	/*text-shadow: 2px 2px #b1b1b1;*/
+ }
+
+ h2 {
+ 	font-size:20px;
+	font-family: 'Aladin', cursive;
+ 	margin-top: 50px;
+ }
+
+ p {
+ 	font-family: helvetica,sans-serif;
+ 	font-size:12px;
+ 	/*width:580px;*/
+ }
+
+ a {
+ 	text-decoration: none;
+ }
+
+.intro {
+	margin-bottom:25px;
+	width:480px;
+	text-align:justify;
+}
+
+.text_link {
+	font-family: helvetica,sans-serif;
+ 	font-size:12px;
+ 	color:black;
+ 	text-decoration:underline;
+ }
+
+.text_link:hover {
+	text-decoration: none;
+}
+
+ .tile_letter {
+ 	font-family: helvetica;
+ 	font-size:12px;
+ 	color:white;
+ 	font-weight:bold;
+ 	text-decoration: none;
+ 	opacity:0;
+ 	z-index: 1;
+ 	margin-top: 2px;
+ 	margin-left:2px;
+ 	margin-right:2px;
+ }
+
+ .tile_letter_black {
+ 	font-family: helvetica;
+ 	font-size:12px;
+ 	color:black;
+ 	font-weight:bold;
+ 	text-decoration: none;
+ 	opacity:0;
+ 	z-index: 1;
+ 	margin-top: 2px;
+ 	margin-left:2px;
+ 	margin-right:2px;
+ }
+
+/* .tile_letter:hover {
+ 	
+ 	text-decoration: underline;
+ }*/
+/*.tile_letter_black:hover {
+	text-decoration: underline;
+}*/
+
+.tile_bg {
+	font-family:'Kanit';
+	font-size:100px;
+	position:absolute;
+	opacity:1;
+	margin-left:13px;
+	color:white;
+	line-height: 93px;
+	z-index: 0;
+	text-shadow: 2px 3px gray;
+	/*width:100px;
+	height:100px;*/
+
+}
+
+.tile_bg_crains {
+	font-family:'Montserrat', sans-serif;
+	font-size:95px;
+	position:absolute;
+	opacity:1;
+	margin-left:13px;
+	margin-top: 4px;
+	color:white;
+	line-height: 93px;
+	z-index: 0;
+	text-shadow: 2px 3px gray;
+	/*width:100px;
+	height:100px;*/
+
+}
+
+.tile_bg_trib {
+	font-family:'UnifrakturMaguntia', sans-serif;
+	font-size:90px;
+	position:absolute;
+	opacity:1;
+	margin-left:15px;
+	margin-top:10px;
+	color:white;
+	line-height: 93px;
+	z-index: 0;
+	text-shadow: 2px 3px gray;
+	/*width:100px;
+	height:100px;*/
+
+}
+
+
+.tile_bg_black {
+	font-family:'Archivo Black';
+	font-size:100px;
+	position:absolute;
+	opacity:1;
+	margin-left:8px;
+	color:black;
+	line-height: 93px;
+	z-index: 0;
+	text-shadow: 2px 3px gray;
+	/*width:100px;
+	height:100px;*/
+
+}
+
+
+ .tile_matrix {
+ 	width:110px;
+ 	float:left;
+ 	/*border:1px solid red;*/
+
+
+ }
+
+ .nerdwallet_tile {
+ 	float:left;
+ 	width:100px;
+ 	height:100px;
+ 	border:1px solid black;
+ 	/*vertical-align: middle;*/
+ 	text-align: left;
+ 	padding-left: 4px;
+ 	background-color:green;
+ 	margin-right:4px;
+ 	margin-bottom: 4px;
+ 	text-decoration:none;
+ }
+
+ .crains_tile {
+ 	float:left;
+ 	width:100px;
+ 	height:100px;
+ 	border:1px solid black;
+ 	vertical-align: middle;
+ 	text-align: left;
+ 	padding-left: 4px;
+ 	background-color:#9e2325;
+ 	margin-right:4px;
+ 	margin-bottom: 4px;
+ 	text-decoration: none;
+ }
+
+ .trib_tile {
+ 	float:left;
+ 	width:100px;
+ 	height:100px;
+ 	border:1px solid black;
+ 	vertical-align: middle;
+ 	text-align: left;
+ 	padding-left: 4px;
+ 	background-color:#0a0179;
+ 	margin-right:4px;
+ 	margin-bottom: 4px;
+ }
+
+ .lat_tile {
+ 	float:left;
+ 	width:100px;
+ 	height:100px;
+ 	border:1px solid black;
+ 	vertical-align: middle;
+ 	text-align: left;
+ 	padding-left: 4px;
+ 	background-color:#cccccc;
+ 	margin-right:4px;
+ 	margin-bottom: 4px;
+ }
+
+.ap_tile {
+	float:left;
+ 	width:100px;
+ 	height:100px;
+ 	border:1px solid black;
+ 	vertical-align: middle;
+ 	text-align: left;
+ 	padding-left: 4px;
+ 	background-color:#ffffff;
+ 	margin-right:4px;
+ 	margin-bottom: 4px;
+}
+.footer {
+	position:absolute;
+	left:0px;
+	top:1050px;
+	/*width:560px;*/
+	width:100%;
+	height:100px;
+	/*background-color: white;*/
+	padding-left: 200px;
+	padding-top:15px;
+
+}
